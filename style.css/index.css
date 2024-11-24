@@ -1,0 +1,470 @@
+.header-container-full{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+  
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.header-container-full{
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    /* background-color: rosybrown; */
+    
+
+}
+.header-container-full .header-container img{
+    height: 90%;
+    margin: 5px 0px;
+}
+.menu-container{
+  
+    width: 100%;
+    overflow: hidden;
+    background-color: red;
+    margin-bottom: 40px;
+
+}.menu-container .menu{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.menu ul{
+    list-style: none; 
+    margin: 0px;
+    padding: 0px;
+  
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+   padding: 25px 35px;
+
+   color: rgb(255, 255, 255);
+   display: block;
+   font-size: 30px;
+   text-decoration: none;
+   font-family: "Koulen", system-ui;
+   opacity: 0.6;
+}
+.menu ul li a:hover{
+    transform: scale(110%,110%);
+    transition: 0.5s;
+    opacity: 1;
+}
+.homepage-container{
+  margin: auto;
+    width: 70%;
+    height: 750px;
+    /* background-color: black;   */
+}
+.homepage-container .homepage-left{
+    width: 68%;
+    background-color: red;
+    height: 100%;
+    margin-right: 2%;
+    float: left;
+}
+.homepage-container .homepage-right{
+    width: 30%;
+    background-color: rgb(0, 249, 166);
+    height: 100%;
+    float: left;
+    
+}
+.homepage-left .left1{
+    float: left;
+   height: 50%;
+    width: 60%;
+    overflow: hidden;
+    background-color: black;
+}
+.homepage-left .left2{
+    overflow: hidden;
+    width: 40%;
+    height: 50%;
+    float: left;
+    background-color: rgb(101, 255, 41);
+}
+.homepage-left .left3{
+    overflow: hidden;
+    float: left;
+   height: 50%;
+    width: 60%;
+    background-color: black;
+}
+.homepage-left .left4{
+    overflow: hidden;
+    width: 40%;
+    height: 50%;
+    float: left;
+    background-color: rgb(101, 255, 41);
+}
+
+
+ .homepage-right .right1{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    background-color: blue;
+ }
+ .homepage-right .right1 img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+ }
+ .homepage-right .right2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(30, 157, 25);
+
+ }
+.homepage-right .right2 iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.homepage-left .left1{
+    background-image: url('../img/cover1.jpg');
+   background-size: cover;
+   
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+    
+}
+.homepage-left .left2{
+    background-image: url('../img/ads.jpg');
+   background-size: cover;
+    
+}
+.homepage-left .left3{
+    background-image: url('../img/cover3.jpg');
+   background-size: cover;
+    
+}
+.homepage-left .left4{
+    background-image: url('../img/cover4.png');
+   background-size: cover;
+    
+}
+.homepage-left .left1 .back{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+}
+.homepage-left .left1 .back:hover{
+    opacity: 0.7;
+}
+.homepage-left .left1 .title{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(36, 74, 224);
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin-top: 20px;
+   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+
+}
+.homepage-left .left2 .title{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(36, 74, 224);
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin-top: 20px;
+   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.homepage-left .left3 .title{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(36, 74, 224);
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin-top: 20px;
+   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.homepage-left .left4 .title{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(36, 74, 224);
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin-top: 20px;
+   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+
+}
+.homepage-left .left1 .title p{
+    font-size: 30px;
+    font-family: 'Koulen';
+    color: white;
+    transform: translateX(-10px);
+}
+.homepage-left .left2 .title p{
+    font-size: 30px;
+    font-family: 'Koulen';
+    color: white;
+    
+}
+.homepage-left .left3 .title p{
+    font-size: 30px;
+    font-family: 'Koulen';
+    color: white;
+    
+}
+.homepage-left .left4 .title p{
+    font-size: 30px;
+    font-family:'Koulen' ;
+    color: white;
+}
+.homepage-left .left1 h3{
+    color: white;
+    margin-left: 20px;
+    transform: translateY(200px);
+    font-size: 30px;
+ transition: 0.5s;
+ line-height: 30px;
+ font-family:'Battambang' ;
+}
+
+.homepage-left .left1:hover h3{
+   transform: translateY(100px);
+   color: red;
+}
+.homepage-left .left1 h3 span{
+    font-size: 20px;
+    opacity: 0;
+    font-family:'Battambang' ;
+}
+.homepage-left .left1:hover h3 span{
+    transform: translateY(100px);
+    opacity: 1;
+    color: white;
+}
+.homepage-left .left2 h3{
+    color: white;
+    margin-left: 20px;
+    transform: translateY(200px);
+    font-size: 30px;
+ transition: 0.5s;
+ line-height: 30px;
+ font-family:'Battambang' ;
+}
+
+.homepage-left .left2:hover h3{
+   transform: translateY(100px);
+   color: red;
+}
+.homepage-left .left2 h3 span{
+    font-size: 20px;
+    opacity: 0;
+    font-family:'Battambang' ;
+}
+.homepage-left .left2:hover h3 span{
+    transform: translateY(100px);
+    opacity: 1;
+    color: white;
+}
+.homepage-left .left3 h3{
+    color: white;
+    margin-left: 20px;
+    transform: translateY(200px);
+    font-size: 30px;
+ transition: 0.5s;
+ line-height: 30px;
+ font-family:'Battambang' ;
+}
+
+.homepage-left .left3:hover h3{
+   transform: translateY(100px);
+   color: red;
+}
+.homepage-left .left3 h3 span{
+    font-size: 20px;
+    opacity: 0;
+    font-family:'Battambang' ;
+}
+.homepage-left .left3:hover h3 span{
+    transform: translateY(100px);
+    opacity: 1;
+    color: white;
+}
+.homepage-left .left4 h3{
+    color: white;
+    margin-left: 20px;
+    transform: translateY(200px);
+    font-size: 30px;
+ transition: 0.5s;
+ line-height: 30px;
+ font-family:'Battambang' ;
+}
+
+.homepage-left .left4:hover h3{
+   transform: translateY(100px);
+   color: red;
+}
+.homepage-left .left4 h3 span{
+    font-size: 20px;
+    opacity: 0;
+    font-family:'Battambang' ;
+}
+.homepage-left .left4:hover h3 span{
+    transform: translateY(100px);
+    opacity: 1;
+    color: white;
+}
+.body_part{
+    margin-top: 20px;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.body_part .title{
+    margin-top: 20px;
+    width: 150px;
+    height: 70px;
+    background-color: red;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body_part .title p{
+    font-size: 30px;
+    font-family: 'Battambang';
+    color: white;
+    
+}
+.title_container{
+    padding: 50px 30px;
+    width: 100%;
+    margin: auto;
+   overflow: hidden;
+   box-sizing: border-box;
+
+border: 5px solid gray;
+border-top: 5px solid red;
+border-right: 5px solid gray;
+}
+.box_container1{
+    width: 500px;
+    height: 300px;
+   
+    float: left;
+    margin: 0px 10px;
+}
+.box_container1 .box1{
+    width: 100%;
+    height: 70%;
+    background-color: red;
+    background-image: url('../img/ads.jpg');
+    background-size: cover;
+    object-fit: contain;
+    margin: 0%;
+}
+.box_container1 .box2{
+    margin: 0px;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.box_container2{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin: 0px 10px;  
+}
+.box_container2 .box3{
+    width: 100%;
+    height: 70%;
+    background-color: red;
+    background-image: url('../img/cover1.jpg');
+    background-size: cover;
+    margin: 0%;
+}
+.box_container2 .box4{
+    margin: 0px;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+}
+.box_container3{
+    width: 450px;
+    height: 300px;
+  
+    float: left;
+    margin: 0px 10px;
+}
+.box_container3 .box5{
+    width: 100%;
+    height: 70%;
+    background-color: red;
+    background-image: url('../img/cover3.jpg');
+    background-size: cover;
+    margin: 0%;
+}
+.box_container3 .box7{
+    margin: 0px;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+}
+.title_container h5{
+    font-size: 20px;
+    font-family: 'battambang';
+}
+.daily_news{
+    margin-top: 80px;
+    float: left;
+    width: 100%;
+    height: 500px;
+    /* background-color:blue ; */
+}
+.daily_news .news{
+    width: 16%;
+    height: 50%;
+    float: left;
+    margin: 10px 5px;
+   
+  
+
+}
+.news .picture{
+    height: 70%;
+    width: 100%;
+    background-image: url('../img/ads.jpg');
+    background-size: cover;
+    transition: 0.5s;
+}
+.news .des h5{
+    margin-top: 0%;
+    font-size: 15px;
+    font-family: 'Battambang';
+    color: rgb(0, 0, 0);
+}
+.picture:hover{
+    transform: scale(90%,90%);
+}
+.homepage-right img:hover{
+    transform: scale(100%,100%);
+}
